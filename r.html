@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Button Hover Example</title>
+    <style>
+      /* Normal button state */
+      .hover-button {
+        background-color: lightblue;
+        color: black;
+        padding: 10px 20px;
+        border: 2px solid darkblue;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+        transition: background-color 0.3s ease, color 0.3s ease,
+          transform 0.3s ease;
+      }
+
+      /* Hover button state */
+      .hover-button:hover {
+        background-color: darkblue;
+        color: white;
+        transform: scale(1.1);
+      }
+    </style>
+  </head>
+  <body>
+    <button class="hover-button">Hover over me!</button>
+  </body>
+</html>
