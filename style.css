@@ -1,3 +1,6 @@
+body {
+  background-color: rgba(250, 246, 246, 0.979);
+}
 .div {
   display: flex;
   flex-direction: row;
@@ -190,7 +193,6 @@
 .challenge {
   background: url(./assets/quote-bg.png);
   background-repeat: no-repeat;
-  margin-top: 32px;
   padding-top: 8px;
 }
 .pera {
@@ -201,4 +203,34 @@
   line-height: 24px;
   letter-spacing: 0%;
   text-align: left;
+  margin-bottom: 12px;
+}
+.dr {
+  color: rgba(14, 14, 14, 0.8);
+  font-family: Fira Sans;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 4px;
+  margin-top: 0px;
+}
+.pere {
+  color: rgba(14, 14, 14, 0.6);
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-top: 0px;
+}
+.challenge-area {
+  box-sizing: border-box;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+  margin-top: 32px;
+  background: rgb(255, 255, 255);
+  padding: 48px 24px;
 }
